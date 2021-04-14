@@ -19,7 +19,7 @@ public class DubboConsumerTraceFilter implements Filter {
 
     private TraceIdPacket packet = new DefaultTraceIdPacket();
 
-    private TraceId traceId = TraceId.NATIVE;
+    private TraceId traceId = TraceId.DEFAULT_ADAPTER;
 
     @Override
     public Result invoke(Invoker<?> invoker, Invocation invocation) throws RpcException {

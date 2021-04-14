@@ -24,7 +24,7 @@ public class TomcatTraceFilter implements Filter {
     };
     
     /** traceId,推荐自己重新设置,满足日志打印时的自定义处理 */
-    private TraceId traceId = TraceId.NATIVE;
+    private TraceId traceId = TraceId.DEFAULT_ADAPTER;
     
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
