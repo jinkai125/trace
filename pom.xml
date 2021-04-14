@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.trace</groupId>
+	<artifactId>trace</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<properties>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<lombok.version>1.18.10</lombok.version>
+
+		<tomcat.version>9.0.24</tomcat.version>
+		<dubbo.version>2.7.8</dubbo.version>
+
+		<slf4j.version>1.7.28</slf4j.version>
+		<log4j.version>1.2.16</log4j.version>
+	</properties>
+	<modules>
+		<module>trace-core</module>
+		<module>trace-filter</module>
+		<module>trace-demo</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+		</dependency>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- trace core -->
+			<dependency>
+				<groupId>com.trace</groupId>
+				<artifactId>trace-core</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<!-- trace core -->
+
+			<!-- trace filter -->
+			<dependency>
+				<groupId>com.trace</groupId>
+				<artifactId>trace-filter-dubbo</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.trace</groupId>
+				<artifactId>trace-filter-tomcat</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<!-- trace filter -->
+			<!-- trace id -->
+			<dependency>
+				<groupId>com.trace</groupId>
+				<artifactId>trace-traceId-sl4j</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.trace</groupId>
+				<artifactId>trace-traceId-log4j</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<!-- trace id -->
+
+			<!-- log4j -->
+			<dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>${log4j.version}</version>
+				<scope>compile</scope>
+			</dependency>
+			<!-- log4j -->
+
+			<!-- sl4j -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>${slf4j.version}</version>
+				<scope>compile</scope>
+			</dependency>
+			<!-- sl4j -->
+
+			<!-- tomcat -->
+			<dependency>
+				<groupId>org.apache.tomcat.embed</groupId>
+				<artifactId>tomcat-embed-core</artifactId>
+				<version>${tomcat.version}</version>
+				<scope>compile</scope>
+			</dependency>
+			<!-- tomcat -->
+
+			<!-- dubbo -->
+			<dependency>
+				<groupId>org.apache.dubbo</groupId>
+				<artifactId>dubbo</artifactId>
+				<version>${dubbo.version}</version>
+			</dependency>
+			<!-- dubbo -->
+		</dependencies>
+	</dependencyManagement>
+</project>
