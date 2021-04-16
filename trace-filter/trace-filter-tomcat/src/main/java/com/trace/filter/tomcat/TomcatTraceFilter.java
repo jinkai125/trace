@@ -20,8 +20,7 @@ import lombok.Setter;
 public class TomcatTraceFilter implements Filter {
 
     /** 链路id分解器,实现对请求链路id的提取,若不设置则使用默认的提取器 */
-    private TraceIdResolver resolver = new TraceIdResolver() {
-    };
+    private TomcatTraceIdResolver resolver = new DefaultTomcatTraceIdResolver();
     
     /** traceId,推荐自己重新设置,满足日志打印时的自定义处理 */
     private TraceId traceId = TraceId.DEFAULT_ADAPTER;
