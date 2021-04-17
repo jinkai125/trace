@@ -12,6 +12,6 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>trace-demo-dubbo</module>
-		<module>trace-demo-tomcat</module>
+		<module>trace-demo-servlet</module>
 	</modules>
 </project>

@@ -12,7 +12,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>trace-filter-dubbo</module>
-		<module>trace-filter-tomcat</module>
+		<module>trace-filter-servlet</module>
 	</modules>
 	<dependencies>
 		<dependency>

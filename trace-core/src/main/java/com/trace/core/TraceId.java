@@ -27,28 +27,5 @@ public interface TraceId {
      */
     void clean();
 
-    /**
-     * 本地的traceId,可通过该对象完成全局链路
-     */
-    TraceId NATIVE = new TraceId() {
-
-        private final InheritableThreadLocal<String> TRACE_ID = new InheritableThreadLocal<>();
-
-        @Override
-        public String get() {
-            return TRACE_ID.get();
-        }
-
-        @Override
-        public void set(String traceId) {
-            TRACE_ID.set(traceId);
-        }
-
-        @Override
-        public void clean() {
-            TRACE_ID.remove();
-        }
-    };
-    
-    AdapterTraceId DEFAULT_ADAPTER = new AdapterTraceId();
+    TraceId ADAPTER = new AdapterTraceId();
 }

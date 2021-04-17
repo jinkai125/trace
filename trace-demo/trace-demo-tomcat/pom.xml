@@ -9,7 +9,7 @@
 		<artifactId>trace-demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>trace-demo-tomcat</artifactId>
+	<artifactId>trace-demo-servlet</artifactId>
 	<name>trace-demo-tomcat</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>

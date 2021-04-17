@@ -16,17 +16,48 @@
 		<lombok.version>1.18.10</lombok.version>
 
 		<tomcat.version>9.0.24</tomcat.version>
+		<servlet.version>4.0.1</servlet.version>
 		<dubbo.version>2.7.8</dubbo.version>
 
 		<slf4j.version>1.7.28</slf4j.version>
 		<log4j.version>1.2.16</log4j.version>
 	</properties>
+
+	<description>提供请求全链路的TraceId跟踪,从发起请求到结束请求可通过TraceId完成全链路的关联</description>
+	<inceptionYear>2021</inceptionYear>
+
 	<modules>
 		<module>trace-core</module>
 		<module>trace-filter</module>
 		<module>trace-demo</module>
 	</modules>
 
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>https://github.com/jinkai125/trace/blob/master/LICENSE</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<email>jinkai125@126.com</email>
+			<id>jinkai</id>
+			<roles>
+				<role>ADMIN</role>
+			</roles>
+			<timezone>2021-04-17</timezone>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git://github.com/jinkai125/trace.git</connection>
+		<url>http://github.com/jinkai125/trace</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/jinkai125/trace/issues</url>
+	</issueManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -104,6 +135,13 @@
 				<version>${dubbo.version}</version>
 			</dependency>
 			<!-- dubbo -->
+
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<version>${servlet.version}</version>
+				<scope>provided</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>

@@ -10,7 +10,7 @@ public class TraceConsumer {
 
     @SuppressWarnings("deprecation")
     public static void main(String[] args) {
-        TraceId.NATIVE.set("11111");
+        TraceId.ADAPTER.set("11111");
         ApplicationConfig application = new ApplicationConfig();
         application.setName("DubboTraceProvider");
         ReferenceConfig<DubboTraceService> reference = new ReferenceConfig<>();
@@ -23,6 +23,6 @@ public class TraceConsumer {
 
         DubboTraceService dubboTraceService = reference.get();
         dubboTraceService.helloWorld();
-        System.out.println(TraceId.NATIVE.get());
+        System.out.println(TraceId.ADAPTER.get());
     }
 }

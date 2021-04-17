@@ -1,2 +1,2 @@
-dubboConsumerTraceFilter=com.trace.filter.dubbo.consumer.DubboConsumerTraceFilter
-dubboProviderTraceFilter=com.trace.filter.dubbo.provider.DubboProviderTraceFilter
+dubboConsumerTraceFilter=com.trace.filter.dubbo.DubboConsumerTraceFilter
+dubboProviderTraceFilter=com.trace.filter.dubbo.DubboProviderTraceFilter
