@@ -17,6 +17,6 @@
 引入类包-->servlet项目引入trace-filter-servlet,dubbo项目引入trace-filter-dubbo,若两个全部使用则全部引入
 配置系统配置,配置系统配置 "trace.mdc.property"该配置为TraceId mdc方式记录的标识,通过此标识可在log4j或者sl4j使用配置项
 dubbo项目引入后需要配置"trace.dubbo.property",该配置为拦截dubbo请求后提取dubbo内的属性字段
-servlet项目支持自定义配置和默认配置两种,自定义配置通过初始化ServletTraceFilte时将自定义解析到进行处理,默认配置会读取"trace.servlet.property"系统变量获取到请求参数的key
+servlet项目支持自定义配置和默认配置两种,自定义配置通过初始化ServletTraceFilte时将自定义解析到进行处理,默认配置会读取"trace.servlet.property"系统变量获取到请求参数的key 
 ```
 
