@@ -27,7 +27,7 @@ public class MDCTraceId implements TraceId {
 	private MDCTraceId() throws RuntimeException {
 
 		Class<?> mdc = null;
-		Class<?>[] putArgs = new Class<?>[] { String.class, Object.class };
+		Class<?>[] putArgs = new Class<?>[] { String.class, String.class };
 		try {
 			mdc = Class.forName(SL4J, false, Thread.currentThread().getContextClassLoader());
 		} catch (ClassNotFoundException e) {
@@ -36,7 +36,7 @@ public class MDCTraceId implements TraceId {
 			} catch (ClassNotFoundException e1) {
 				throw new RuntimeException(LOG4J + " or " + SL4J + " class not found");
 			}
-			putArgs[1] = String.class;
+			putArgs[1] = Object.class;
 		}
 		try {
 			get = mdc.getMethod("get", String.class);

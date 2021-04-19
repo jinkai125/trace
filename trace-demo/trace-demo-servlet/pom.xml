@@ -10,8 +10,11 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>trace-demo-servlet</artifactId>
-	<name>trace-demo-tomcat</name>
+	<name>trace-demo-servlet</name>
 	<url>http://maven.apache.org</url>
+	<properties>
+		<spring-boot.version>2.1.8.RELEASE</spring-boot.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -19,5 +22,14 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+        <dependency>
+        	<groupId>com.trace</groupId>
+        	<artifactId>trace-filter-servlet</artifactId>
+        </dependency>
 	</dependencies>
 </project>

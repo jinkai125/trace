@@ -1,7 +1,7 @@
 package com.trace.filter.tomcat;
 
 import java.io.IOException;
-
+import java.util.UUID;
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
@@ -43,7 +43,8 @@ public class ServletTraceFilter implements Filter {
 		resolver = new TraceIdResolver() {
 			@Override
 			public String resolver(ServletRequest request) {
-				return request.getParameter(key);
+			    String traceId = request.getParameter(key);
+				return traceId == null || traceId.isEmpty() ? UUID.randomUUID().toString().replace("-", "") : traceId;
 			}
 		};
 	}

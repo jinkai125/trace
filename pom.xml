@@ -84,22 +84,10 @@
 			</dependency>
 			<dependency>
 				<groupId>com.trace</groupId>
-				<artifactId>trace-filter-tomcat</artifactId>
+				<artifactId>trace-filter-servlet</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<!-- trace filter -->
-			<!-- trace id -->
-			<dependency>
-				<groupId>com.trace</groupId>
-				<artifactId>trace-traceId-sl4j</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.trace</groupId>
-				<artifactId>trace-traceId-log4j</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<!-- trace id -->
 
 			<!-- log4j -->
 			<dependency>
@@ -124,7 +112,6 @@
 				<groupId>org.apache.tomcat.embed</groupId>
 				<artifactId>tomcat-embed-core</artifactId>
 				<version>${tomcat.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<!-- tomcat -->
 
@@ -140,7 +127,6 @@
 				<groupId>javax.servlet</groupId>
 				<artifactId>javax.servlet-api</artifactId>
 				<version>${servlet.version}</version>
-				<scope>provided</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
