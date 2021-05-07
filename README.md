@@ -11,13 +11,17 @@
 | 0.0.1 | 2021-04-17 | 更新README                                                   |
 | 0.0.1 | 2021-04-17 | 更新版本号,调整内部结构,修改tomcat为servlet，对DubboFilter和ServletFilter调整为使用系统加载配置方式 |
 | 0.0.1 | 2021-04-19 | 修复MDC初始化 sl4j问题，更新组件trace-filter-tomcat为trace-filter-servlet,完善servlet用例和logback配置用例 |
+| 0.0.1 | 2021-05-07 | 完善demo-servlet示例,添加log4j2示例,MDC支持使用基于SL4J完成,去除log4j+sl4j双重方式,filter-servlet,添加部分注释说明 |
 
-### 使用说明
+### 配置说明
 
 ```
-引入类包-->servlet项目引入trace-filter-servlet,dubbo项目引入trace-filter-dubbo,若两个全部使用则全部引入
-配置系统配置,配置系统配置 "trace.mdc.property"该配置为TraceId mdc方式记录的标识,通过此标识可在log4j或者sl4j使用配置项
-dubbo项目引入后需要配置"trace.dubbo.property",该配置为拦截dubbo请求后提取dubbo内的属性字段
-servlet项目支持自定义配置和默认配置两种,自定义配置通过初始化ServletTraceFilte时将自定义解析到进行处理,默认配置会读取"trace.servlet.property"系统变量获取到请求参数的key 
+trace.servlet.property-->该配置用于在解析参数时提取TraceId使用,在初始化ServletTraceFilter时通过init完成初始化,若未设置初始化则依次通过环境变量,System.getProperty(ServletTraceFilter.PROPERTY_KEY)获取
+
+trace.dubbo.property-->该配置用于dubbo解析TraceId和传递TraceId时使用,通过环境变量或者System.setProperty(DubboTraceIdConstants.PROPERTY_KEY, "${属性名称}")设置
+
+trace.mdc.property-->该配置用于作为log配置文件内的TraceId配置使用,可通过环境变量和System.setProperty(MDCTraceId.PROPERTY_KEY, "${属性名称}")设置,设置的该名称为logback或者log4j2等配置文件内的标识
+
+TraceId:默认的标识,若未设置以上参数,在各个场景下分别取该参数读取配置
 ```
 

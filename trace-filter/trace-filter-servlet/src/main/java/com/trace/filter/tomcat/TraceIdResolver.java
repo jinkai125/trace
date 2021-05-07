@@ -1,5 +1,6 @@
 package com.trace.filter.tomcat;
 
+import java.util.UUID;
 import javax.servlet.ServletRequest;
 
 /**
@@ -11,10 +12,16 @@ import javax.servlet.ServletRequest;
  */
 public interface TraceIdResolver {
 
-	/**
-	 * 解析
-	 * @param request
-	 * @return
-	 */
-    String resolver(ServletRequest request);
+    /**
+     * 解析
+     * 
+     * @param name
+     * @param request
+     * @return
+     */
+    default String resolver(String name, ServletRequest request) {
+        String traceId = request.getParameter(name);
+        return traceId == null || traceId.isEmpty() ? UUID.randomUUID().toString().replace("-", "")
+                : traceId;
+    }
 }

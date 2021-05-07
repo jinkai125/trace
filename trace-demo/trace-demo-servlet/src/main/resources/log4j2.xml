@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--日志级别以及优先级排序: OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL -->
+<!--status="WARN" :用于设置log4j2自身内部日志的信息输出级别，默认是OFF -->
+<!--monitorInterval="30" :间隔秒数,自动检测配置文件的变更和重新配置本身 -->
+<configuration status="WARN" monitorInterval="30">
+	<Properties>
+		<Property name="appName">trace-demo-servlet</Property>
+		<Property name="name">trace</Property>
+		<Property name="path">./trace/logs/log4j2</Property>
+		<Property name="level">INFO</Property>
+	</Properties>
+	<!--appenders:定义输出内容,输出格式,输出方式,日志保存策略等,常用其下三种标签[console,File,RollingFile] -->
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="[%X{TraceId}] [%thread] %-5level %logger{50} - %msg  %n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</Console>
+
+		<!-- 日志,该日志记录正常打印的日志,用于记录请求中操作的其他日志 -->
+		<RollingFile name="rolling"
+			fileName="${path}/${name}.log"
+			filePattern="${path}/${name}.log.%d{yyyy-MM-dd}">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%X{TraceId}]  [%thread] %-5level %logger{50} - %msg  %n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</RollingFile>
+	</appenders>
+	<!--然后定义logger，只有定义了logger并引入的appender，appender才会生效 -->
+	<loggers>
+		<root level="${level}">
+			<appender-ref ref="Console" />
+			<appender-ref ref="rolling" />
+		</root>
+	</loggers>
+</configuration>

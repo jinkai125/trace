@@ -23,13 +23,27 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring-boot.version}</version>
-        </dependency>
-        <dependency>
-        	<groupId>com.trace</groupId>
-        	<artifactId>trace-filter-servlet</artifactId>
-        </dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>${spring-boot.version}</version>
+			<!-- log4j2无法和logback同时存在,若使用log4j2时需去除logback依赖 -->
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!-- 引入log4j2依赖,SpringBoot引入start默认引入为LogBack-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-log4j2</artifactId>
+			<version>${spring-boot.version}</version>
+		</dependency>
+		<!-- 引入servlet依赖 -->
+		<dependency>
+			<groupId>com.trace</groupId>
+			<artifactId>trace-filter-servlet</artifactId>
+		</dependency>
 	</dependencies>
 </project>

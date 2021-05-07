@@ -1,0 +1,259 @@
+2021-05-07 09:30:23.680 []  [main] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 9884 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 09:30:23.687 []  [main] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 09:30:24.853 []  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 09:30:24.872 []  [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 09:30:24.890 []  [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 09:30:24.891 []  [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 09:30:25.017 []  [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 09:30:25.017 []  [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1295 ms  
+2021-05-07 09:30:25.236 []  [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 09:30:25.450 []  [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 09:30:25.475 []  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 09:30:25.478 []  [main] INFO  com.trace.demo.tomcat.App - Started App in 2.215 seconds (JVM running for 2.804)  
+2021-05-07 09:30:32.894 []  [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 09:30:32.894 []  [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 09:30:32.900 []  [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms  
+2021-05-07 09:30:32.929 []  [http-nio-8080-exec-1] INFO  com.trace.demo.tomcat.TraceController - hello trace  
+2021-05-07 09:31:36.640 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 15008 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 09:31:36.646 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 09:31:37.829 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 09:31:37.849 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 09:31:37.861 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 09:31:37.862 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 09:31:37.964 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 09:31:37.964 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1277 ms  
+2021-05-07 09:31:38.196 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 09:31:38.438 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 09:31:38.461 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 09:31:38.464 [] INFO  com.trace.demo.tomcat.App - Started App in 2.228 seconds (JVM running for 2.802)  
+2021-05-07 09:31:41.489 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 09:31:41.489 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 09:31:41.494 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms  
+2021-05-07 09:31:41.518 [] INFO  com.trace.demo.tomcat.TraceController - hello trace  
+2021-05-07 09:32:18.498 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 5992 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 09:32:18.504 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 09:32:19.715 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 09:32:19.735 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 09:32:19.747 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 09:32:19.748 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 09:32:19.854 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 09:32:19.855 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1314 ms  
+2021-05-07 09:32:20.095 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 09:32:20.323 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 09:32:20.349 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 09:32:20.351 [] INFO  com.trace.demo.tomcat.App - Started App in 2.261 seconds (JVM running for 2.851)  
+2021-05-07 09:32:22.853 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 09:32:22.853 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 09:32:22.860 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms  
+2021-05-07 09:32:22.885 [Hello Trace] INFO  com.trace.demo.tomcat.TraceController - hello trace  
+2021-05-07 09:32:46.612 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 3088 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 09:32:46.628 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 09:32:48.420 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 09:32:48.463 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 09:32:48.476 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 09:32:48.478 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 09:32:48.667 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 09:32:48.667 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1975 ms  
+2021-05-07 09:32:49.243 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 09:32:49.575 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 09:32:49.626 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 09:32:49.633 [] INFO  com.trace.demo.tomcat.App - Started App in 3.708 seconds (JVM running for 5.172)  
+2021-05-07 09:32:54.384 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 09:32:54.385 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 09:32:54.396 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms  
+2021-05-07 09:35:02.073 [Hello Trace] INFO  com.trace.demo.tomcat.TraceController - hello trace  
+2021-05-07 12:46:15.386 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 5852 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 12:46:15.392 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 12:46:16.603 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 12:46:16.620 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:46:16.631 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 12:46:16.631 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 12:46:16.730 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 12:46:16.731 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1303 ms  
+2021-05-07 12:46:16.932 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 12:46:17.130 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:46:17.148 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 12:46:17.150 [] INFO  com.trace.demo.tomcat.App - Started App in 2.112 seconds (JVM running for 2.696)  
+2021-05-07 12:46:26.219 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 12:46:26.219 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 12:46:26.225 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms  
+2021-05-07 12:46:26.245 [Hello Trace] INFO  com.trace.demo.tomcat.TraceController - hello trace  
+2021-05-07 12:47:19.441 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 17396 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 12:47:19.445 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 12:47:20.491 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 12:47:20.509 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:47:20.520 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 12:47:20.520 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 12:47:20.611 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 12:47:20.612 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1134 ms  
+2021-05-07 12:47:20.805 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 12:47:20.993 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:47:21.011 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 12:47:21.013 [] INFO  com.trace.demo.tomcat.App - Started App in 1.912 seconds (JVM running for 2.376)  
+2021-05-07 12:47:23.695 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 12:47:23.695 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 12:47:23.699 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms  
+2021-05-07 12:47:23.716 [Hello Trace] INFO  com.trace.demo.tomcat.TraceController - hello trace  
+2021-05-07 12:47:44.456 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 11628 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 12:47:44.461 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 12:47:45.491 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 12:47:45.507 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:47:45.520 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 12:47:45.520 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 12:47:45.602 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 12:47:45.602 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1110 ms  
+2021-05-07 12:47:45.779 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 12:47:45.971 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:47:45.988 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 12:47:45.990 [] INFO  com.trace.demo.tomcat.App - Started App in 1.861 seconds (JVM running for 2.328)  
+2021-05-07 12:47:49.733 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 12:47:49.733 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 12:47:49.737 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms  
+2021-05-07 12:47:49.756 [Hello Trace] INFO  com.trace.demo.tomcat.TraceController - hello trace  
+2021-05-07 12:54:17.718 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 3760 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 12:54:17.723 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 12:54:18.706 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 12:54:18.723 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:54:18.734 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 12:54:18.735 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 12:54:18.821 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 12:54:18.821 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1068 ms  
+2021-05-07 12:54:19.006 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 12:54:19.202 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:54:19.226 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 12:54:19.229 [] INFO  com.trace.demo.tomcat.App - Started App in 1.862 seconds (JVM running for 2.325)  
+2021-05-07 12:54:24.968 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 12:54:24.968 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 12:54:24.972 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms  
+2021-05-07 12:54:24.983 [] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Filter execution threw an exception] with root cause  
+java.lang.NoClassDefFoundError: org/apache/log4j/MDC
+	at com.trace.core.MDCTraceId.clean(MDCTraceId.java:45) ~[classes/:?]
+	at com.trace.core.AdapterTraceId.lambda$1(AdapterTraceId.java:44) ~[classes/:?]
+	at java.lang.Iterable.forEach(Unknown Source) ~[?:1.8.0_191]
+	at java.util.Collections$SynchronizedCollection.forEach(Unknown Source) ~[?:1.8.0_191]
+	at com.trace.core.AdapterTraceId.clean(AdapterTraceId.java:43) ~[classes/:?]
+	at com.trace.filter.tomcat.ServletTraceFilter.doFilter(ServletTraceFilter.java:59) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+2021-05-07 12:54:25.053 [] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Filter execution threw an exception] with root cause  
+java.lang.NoClassDefFoundError: org/apache/log4j/MDC
+	at com.trace.core.MDCTraceId.clean(MDCTraceId.java:45) ~[classes/:?]
+	at com.trace.core.AdapterTraceId.lambda$1(AdapterTraceId.java:44) ~[classes/:?]
+	at java.lang.Iterable.forEach(Unknown Source) ~[?:1.8.0_191]
+	at java.util.Collections$SynchronizedCollection.forEach(Unknown Source) ~[?:1.8.0_191]
+	at com.trace.core.AdapterTraceId.clean(AdapterTraceId.java:43) ~[classes/:?]
+	at com.trace.filter.tomcat.ServletTraceFilter.doFilter(ServletTraceFilter.java:59) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+2021-05-07 12:55:20.035 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 16868 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 12:55:20.040 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 12:55:21.068 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 12:55:21.088 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:55:21.100 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 12:55:21.100 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 12:55:21.193 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 12:55:21.193 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1122 ms  
+2021-05-07 12:55:21.371 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 12:55:21.558 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:55:21.579 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 12:55:21.581 [] INFO  com.trace.demo.tomcat.App - Started App in 1.908 seconds (JVM running for 2.395)  
+2021-05-07 12:55:24.526 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 12:55:24.526 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 12:55:24.529 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms  
+2021-05-07 12:55:24.548 [] INFO  com.trace.demo.tomcat.TraceController - hello trace  
+2021-05-07 12:59:49.126 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 17308 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 12:59:49.157 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 12:59:50.249 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 12:59:50.267 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:59:50.277 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 12:59:50.278 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 12:59:50.359 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 12:59:50.359 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1168 ms  
+2021-05-07 12:59:50.566 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 12:59:50.759 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 12:59:50.781 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 12:59:50.784 [] INFO  com.trace.demo.tomcat.App - Started App in 1.956 seconds (JVM running for 2.412)  
+2021-05-07 13:00:44.325 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 13:00:44.325 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 13:00:44.328 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms  
+2021-05-07 13:00:44.350 [Hello Trace] INFO  com.trace.demo.tomcat.TraceController - hello trace  
+2021-05-07 13:04:31.688 [] INFO  com.trace.demo.tomcat.App - Starting App on ZB-20201231KLKE with PID 10880 (started by jinkai1 in D:\金凯\workspace\trace\trace-demo\trace-demo-servlet)  
+2021-05-07 13:04:31.695 [] INFO  com.trace.demo.tomcat.App - No active profile set, falling back to default profiles: default  
+2021-05-07 13:04:32.714 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)  
+2021-05-07 13:04:32.733 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]  
+2021-05-07 13:04:32.752 [] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]  
+2021-05-07 13:04:32.753 [] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]  
+2021-05-07 13:04:32.851 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext  
+2021-05-07 13:04:32.852 [] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1122 ms  
+2021-05-07 13:04:33.015 [] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'  
+2021-05-07 13:04:33.198 [] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]  
+2021-05-07 13:04:33.217 [] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''  
+2021-05-07 13:04:33.219 [] INFO  com.trace.demo.tomcat.App - Started App in 1.747 seconds (JVM running for 2.267)  
+2021-05-07 13:04:36.944 [] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-05-07 13:04:36.944 [] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+2021-05-07 13:04:36.948 [] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms  
+2021-05-07 13:04:36.966 [Hello Trace] INFO  com.trace.demo.tomcat.TraceController - hello trace  
