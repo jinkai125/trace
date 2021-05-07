@@ -21,6 +21,7 @@
 
 		<slf4j.version>1.7.28</slf4j.version>
 		<log4j.version>2.11.2</log4j.version>
+		<gson.version>2.8.6</gson.version>
 	</properties>
 
 	<description>提供请求全链路的TraceId跟踪,从发起请求到结束请求可通过TraceId完成全链路的关联</description>
@@ -30,6 +31,7 @@
 		<module>trace-core</module>
 		<module>trace-filter</module>
 		<module>trace-demo</module>
+		<module>trace-keywords</module>
 	</modules>
 
 	<licenses>
@@ -117,6 +119,12 @@
 				<groupId>javax.servlet</groupId>
 				<artifactId>javax.servlet-api</artifactId>
 				<version>${servlet.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.google.code.gson</groupId>
+				<artifactId>gson</artifactId>
+				<version>${gson.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

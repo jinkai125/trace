@@ -1,0 +1,2 @@
+dubboConsumerKeywordsFilter=com.trace.keywords.dubbo.DubboConsumerKeywordsFilter
+dubboProviderKeywordsFilter=com.trace.keywords.dubbo.DubboProviderKeywordsFilter
