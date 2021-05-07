@@ -15,7 +15,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<lombok.version>1.18.10</lombok.version>
 
-		<tomcat.version>9.0.24</tomcat.version>
+		<tomcat.version>9.0.41</tomcat.version>
 		<servlet.version>4.0.1</servlet.version>
 		<dubbo.version>2.7.8</dubbo.version>
 
