@@ -25,7 +25,7 @@ public class FilterConfiguration {
         filterRegistrationBean.addUrlPatterns("*");
         // 设置初始化参数
         Map<String, String> init = new HashMap<>();
-        init.put(ServletTraceFilter.NAME, "TraceId");
+        init.put(ServletTraceFilter.PROPERTY_KEY, "TraceId");
         filterRegistrationBean.setInitParameters(init);
         filterRegistrationBean.setOrder(1);
         return filterRegistrationBean;
